@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="Style/Styles.css">
+</head>
+<body>
+    <script src="Script/Script.js"></script>
+    <div class="container">
+        <div class="header">
+            <h1 id="nome"></h1>
+            <p id="endereco"></p>
+        </div>
+        
+        <div class="content">
+            <div class="border">
+                <div class="left">
+                    <h2>Perfil</h2>
+                    <p id="resumo"></p>
+                    <h2>Contato</h2>
+                    <p><strong>Telefone:</strong> <span id="telefone"></span></p>
+                    <p><strong>Email:</strong> <span id="email"></span></p>
+                    <p><strong>Github:</strong> <a id="github" href="#" target="_blank"></a></p>
+                    <p><strong>LinkedIn:</strong> <a id="linkedin" href="#" target="_blank"></a></p>
+                    
+                    <h2>Passatempos</h2>
+                    <ul id="passatempos"></ul>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Experiencia</h2>
+                <ul id="experiencia"></ul>
+                
+                <h2>Formação</h2>
+                <ul id="educacao"></ul>
+                
+                <h2>Cursos</h2>
+                <ul id="cursos"></ul>
+                
+                <h2>Habilidades</h2>
+                <ul id="habilidades"></ul>
+            </div>
+        </div>
+        
+        <button class="btn-print" onclick="printCurriculo()">Imprimir Currículo</button>
+    </div>
+    
+</body>
+</html>
