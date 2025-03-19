@@ -5,7 +5,7 @@ function printCurriculo() {
 // Função para carregar os dados do JSON e inserir no HTML
 async function carregarDados() {
     try {
-        const response = await fetch("./Data/data.json");
+        const response = await fetch("Data/data.json");
         const dados = await response.json();
 
         document.getElementById("nome").textContent = dados.nome;
