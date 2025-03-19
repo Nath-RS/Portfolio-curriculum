@@ -1,35 +1,125 @@
-dy {
+body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    max-width: 800px;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
 }
+
 .container {
-    background: white;
-    padding: 20px;
+    
+    padding: 30px;
+    width: 900px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}bo
-h1, h2 {
-    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+.border{
+   
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 60px 0px;
+    padding-top: 20px;
+
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.endereco{
+    text-align: right;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #007BFF;
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: auto;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.right{
+    width:70%;
+    padding: 20px;
+
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+}
+
+p, li {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
 .btn-print {
     display: block;
     width: 100%;
-    margin: 10px 0;
-    padding: 10px;
+    margin: 20px 0;
+    padding: 12px;
     background: #007BFF;
     color: white;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
 }
+
 .btn-print:hover {
     background: #0056b3;
 }
+
 @media print {
     .btn-print {
         display: none;
     }
+    
+    body {
+        /*background: white;*/
+        padding: 0;
+    }
+    
+    .border{
+   
+        background-color: #f1f1f1;
+        padding: 30px;
+        border-radius: 60px 0px;
+        padding-top: 20px;
+    
+    }
+    
+    .container {
+        box-shadow: none;
+       /* width: 100%; */
+    }
+    
+    /*
+    .content {
+        flex-direction: column;
+    }
+    */
 }
