@@ -1,0 +1,3 @@
+function printCurriculo() {
+    window.print();
+}

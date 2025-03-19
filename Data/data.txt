@@ -1,0 +1,21 @@
+Nome: Nathan Rodrigues de Souza
+Email: nathandesouzarodrigues@gmail.com
+Telefone: (11) 914491277
+Resumo: Breve descrição sobre você e suas habilidades.
+
+[Experiencia]
+Empresa: Sunlee Tecnologia Em TI
+Cargo: Desenvoldedor De Software
+Periodo: 2024 - Atualmente
+Descricao: Descrição das atividades.
+
+[Educacao]
+Instituicao: Unip
+Curso: bacharel Em ciencias Da Computação
+Periodo: 2020 - 2024
+
+[Habilidades]
+.Net
+Javascript
+PHP 
+Java
