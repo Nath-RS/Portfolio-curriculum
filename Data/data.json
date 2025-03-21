@@ -1,11 +1,27 @@
 {
-    "nome": "Seu Nome",
-    "endereco": "Cidade - Estado",
-    "telefone": "(00) 00000-0000",
-    "email": "seuemail@example.com",
-    "github": "https://github.com/SeuPerfil",
-    "linkedin": "https://linkedin.com/in/SeuPerfil",
-    "resumo": "Breve descrição sobre você e suas habilidades.",
+    "nome": "Nathan Souza",
+    "endereco": "São Paulo - SP",
+    "telefone": "(**) 00000-0000",
+    "email": "nathandesouzarodrigues@gmail.com",
+    "github": "https://github.com/Nath-RS",
+    "linkedin": "https://www.linkedin.com/in/nathan-rodrigues-de-souza/",
+    
+    "resumo": [ "Sou uma pessoa pontual, proativa e",
+                "flexível,  gosto desenvolver e criar", 
+                "Projetos para melhorar minha", 
+                "criatividade, Raciocínio lógico e", 
+                "produtividade. Possuo Bons", 
+                "conhecimentos em desenvolvimento", 
+                "de programas Font-end e Back-end.", 
+                "Tenho Experiência e facilidade para", 
+                "Trabalhar em equipe. Procuro melhorar", 
+                "meus conhecimentos, a fim de", 
+                "desenvolver, me especializar e seguir", 
+                "carreira Como Desenvolvedor Fullstack",
+                "e Terminar a facudade de Ciências da", 
+                "Computação. "
+                ],
+
     "passatempos": [
         "Tocar Instrumentos Musicais",
         "Exercícios Físicos e Mentais",
@@ -13,11 +29,19 @@
         "Ler Artigos e Livros",
         "Trabalhos Voluntários"
     ],
+    "experiencia": [
+        {
+            "nomeempresa": "Sunlee",
+            "cargo": "Desenvolvedor de Software",
+            "funcao": "",
+            "tempo": "2022 - Atualmente"
+        }
+    ],
     "educacao": [
         {
-            "instituicao": "Nome da Instituição",
-            "curso": "Curso",
-            "periodo": "Ano - Ano"
+            "instituicao": "UNIP",
+            "curso": "Ciencias Da Computação",
+            "periodo": "2020 - 2024"
         }
     ],
     "cursos": [

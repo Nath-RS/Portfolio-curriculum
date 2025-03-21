@@ -15,7 +15,7 @@ body {
 }
 
 .border{
-   
+    width: 27%;
     background-color: #f1f1f1;
     padding: 30px;
     border-radius: 60px 0px;
@@ -23,11 +23,22 @@ body {
 
 }
 
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -50px;
+}
+
+.left h2{
+    font-size: 15px !important;
+}
+
 .header {
-    text-align: center;
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    width: 70%;
+    padding-left: 20px;
+    text-align: left;
+    /*border-bottom: 2px solid #007BFF;*/
 }
 .endereco{
     text-align: right;
@@ -51,9 +62,12 @@ h2 {
 }
 
 .left{
-    width: auto;
-    border-radius: 5px;
+    
+    font-size: 9px !important;
     padding-left: 20px;
+}
+.left p, .left li {
+    font-size: 9px !important; /* Aplicando a redução dentro da left */
 }
 
 .right{
