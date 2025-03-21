@@ -9,6 +9,7 @@ async function carregarDados() {
         const dados = await response.json();
 
         document.getElementById("nome").textContent = dados.nome;
+        document.getElementById("estadocivil").textContent = dados.estadocivil;
         document.getElementById("endereco").textContent = dados.endereco;
         document.getElementById("telefone").textContent = dados.telefone;
         document.getElementById("email").textContent = dados.email;

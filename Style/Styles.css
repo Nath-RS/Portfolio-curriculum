@@ -16,11 +16,15 @@ body {
 
 .border{
     width: 27%;
-    background-color: #f1f1f1;
+    background-color: #f1f1ff;
     padding: 30px;
     border-radius: 60px 0px;
     padding-top: 20px;
 
+}
+
+.top .border{
+    height: 120px;
 }
 
 
@@ -28,6 +32,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: -50px;
+    
 }
 
 .left h2{
@@ -40,14 +45,16 @@ body {
     text-align: left;
     /*border-bottom: 2px solid #007BFF;*/
 }
-.endereco{
-    text-align: right;
+.sub-header p{
+    text-align: justify;
+    margin-bottom: -20px;
+    padding-left: 50%;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 35px;
     color: #333;
-    margin-bottom: 5px;
+    margin-bottom: -5px;
 }
 
 h2 {
@@ -119,7 +126,7 @@ ul {
     
     .border{
    
-        background-color: #f1f1f1;
+        background-color: #f1f1ff;
         padding: 30px;
         border-radius: 60px 0px;
         padding-top: 20px;
