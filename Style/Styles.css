@@ -14,6 +14,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+#head{
+    display: block;
+    background-color: #f1f1ff;
+    border-radius: 60px 0px;
+    width: 830px;
+    margin-bottom: -20px;
+    margin-left: -0.7px;
+}
+
 .border{
     width: 27%;
     background-color: #f1f1ff;
@@ -25,6 +34,8 @@ body {
 
 .top .border{
     height: 120px;
+    border-radius: 1px 0px;
+    margin-bottom: 5px;
 }
 
 
